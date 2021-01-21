@@ -1,5 +1,10 @@
-* {
+html {
     box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 //- Make sticky footer
@@ -46,7 +51,7 @@ body {
 .col_4, .col_5, .col_6 {
     position: relative;
     width: 100%;
-    margin: 48px;
+    margin: 0 48px;
 }
 
 @for $i from 1 through 6 {
@@ -55,9 +60,26 @@ body {
     }
 }
 
+// Debug grid
+.fixed-gutter-grid {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: transparent;
 
+    .container,
+    .row,
+    .col_1 {
+        height: 100%;
+    }
 
-
+    .column {
+        background: rgba(255, 0, 0, 0.15);
+    }
+}
 
 
 
