@@ -1,15 +1,19 @@
 //- Animation functions
-$func-primary                 : cubic-bezier(0.075, 0.82, 0.165, 1);
-$func-animation               : all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+$transition             :  all .2s ease-in-out;
 
 // Colors
-// $color-primary: #ec3240;
-$color-primary                : #ef2f3a;
-$color-primary-background     : #111; 
-// $color-primary-background: rgba(0,0,0,.9); 
-$color-primary-font           : #fff;
+$color-back-primary     : #0B0D19;
+$color-back-secondary   : #0D101F;
+$color-accent           : #AB78FF;
+$color-icons            : #F6F0FF;
+$color-text-primary     : #D9D9D9;
+$color-text-secondary   : #A3A3A3;
+$color-text-inactive    : #80758F;
 
-// Media quares
-$screen-large                 : 1440px;
-$screen-medium                : 1024px;
-$screen-small                 : 768px;
+// Media
+$screen-desktop         : 1920px;
+$screen-tablet          : 768px;
+$screen-mobile          : 320px;
+
+// Fonts
+$font-primary           : 'Montserrat', sans-serif;

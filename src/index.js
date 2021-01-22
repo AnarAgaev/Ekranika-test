@@ -1,5 +1,6 @@
 // Includes custom scripts
 import './js/main';
+import './pug/templates/header/header'
 
 // Include vendor styles
 import 'normalize.css';
