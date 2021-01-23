@@ -1,7 +1,7 @@
 @import "../../../scss/variables";
 
 .footer {
-    padding: 112px 96px 102px;
+    padding: 112px 88px 102px;
     position: relative;
 
     &::before {
@@ -155,4 +155,9 @@
         line-height: 1.6;
         color: $color-text-inactive;
     }
+}
+
+_:-ms-fullscreen, :root .footer__socials .social-icon {
+    justify-content: flex-start;
+    align-items: flex-start;
 }
